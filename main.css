@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+}
+
+/* Pagina principal */
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabecalho-imagem {
+    height: 72px;
+}
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+.cabecalho-menu-item {
+    font-family: 'Heebo', sans-serif;
+    color: #000;
+    font-weight: 500;
+    font-size: 24px;
+}
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal-escrito-frase {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    padding: 100px 0px 0px 0px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+.conteudo-principal-imagem {
+    height: 500px;
+}
+.conteudo-principal-escrito-botao {
+    background-color: #000;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+}
+
+.box-1 {
+    background-color: #4062CC;
+    color: #4062CC;
+    margin: 100px;
+}
+
+/* Fim Pagina principal */
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.conteudo-principal-escrito-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.rodape-contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: row;
+}
+.btn-2 {
+    background-color: #000;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+}
